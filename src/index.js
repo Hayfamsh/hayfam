@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+import { HashRouter, Route, Routes } from "react-router-dom";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 //local page
 import Index from "./views";
 import Contact from "./views/Contact";
@@ -16,12 +16,12 @@ import "./assets/css/hayfam-styles.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <Routes>
       <Route path="/" exact element={<Index />} />
       <Route path="/contact" exact element={<Contact />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 
   /* </React.StrictMode> */
 );
