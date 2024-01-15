@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 //local page
 import Index from "./views";
 import Contact from "./views/Contact";
-import About from "./components/sections/About";
+
 // *** WE SHOULD IMPORT css FILES HERE ***
 import "./assets/vendor/font-awesome/css/font-awesome.min.css";
 import "./assets/vendor/nucleo/css/nucleo.css";
@@ -17,11 +16,10 @@ import "./assets/css/hayfam-styles.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" exact element={<Index />} />
       <Route path="/contact" exact element={<Contact />} />
-      {/* <Route path="/about" exact element={<About />} /> */}
     </Routes>
   </BrowserRouter>
 
