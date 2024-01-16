@@ -16,10 +16,10 @@ import "./assets/css/hayfam-styles.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <HashRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <Routes>
-      <Route path="/" exact element={<Index />} />
-      <Route path="/contact" exact element={<Contact />} />
+      <Route exact path="/" element={<Index />} />
+      <Route exact path="/contact" element={<Contact />} />
     </Routes>
   </HashRouter>
 
