@@ -37,7 +37,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
+
+//local page
+import Index from "./views";
+import Contact from "./views/Contact";
+import MainNavbar from "./components/MainNavbar";
 
 // *** WE SHOULD IMPORT css FILES HERE ***
 import "./assets/vendor/font-awesome/css/font-awesome.min.css";
@@ -47,7 +52,11 @@ import "./assets/css/hayfam-styles.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HashRouter>
-    <App />
+    <MainNavbar />
+    <Routes>
+      <Route exact path="/" element={<Index />} />
+      <Route exact path="/contact" element={<Contact />} />
+    </Routes>
   </HashRouter>
 );
 
