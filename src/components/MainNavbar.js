@@ -91,11 +91,11 @@ class MainNavbar extends Component {
                   </NavbarBrand>
 
                   <NavItem>
-                    <NavLink href="/#about">About</NavLink>
+                    <NavLink href="#about">About</NavLink>
                   </NavItem>
 
                   <NavItem>
-                    <NavLink href="/#services">Services</NavLink>
+                    <NavLink href="#services">Services</NavLink>
                   </NavItem>
 
                   {/* <NavItem>
