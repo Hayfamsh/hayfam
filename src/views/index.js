@@ -22,7 +22,7 @@ class Index extends Component {
   render() {
     return (
       <>
-        <MainNavbar />
+        {/* <MainNavbar /> */}
         <main ref="main">
           <MainHeader />
           <About />

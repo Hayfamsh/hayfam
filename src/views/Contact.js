@@ -113,7 +113,7 @@ const Contact = () => {
 
   return (
     <>
-      <MainNavbar />
+      {/* <MainNavbar /> */}
 
       <main>
         {/* ########  Header ######## */}
