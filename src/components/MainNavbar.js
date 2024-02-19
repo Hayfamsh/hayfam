@@ -50,9 +50,6 @@ class MainNavbar extends Component {
             id="navbar-main"
           >
             <Container>
-              {/* <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <img alt="..." src={require("../assets/img/test.jpeg")} />
-              </NavbarBrand> */}
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
@@ -91,28 +88,7 @@ class MainNavbar extends Component {
                   </NavbarBrand>
 
                   <NavItem>
-                    <NavLink href="#about">About</NavLink>
-                  </NavItem>
-
-                  <NavItem>
-                    <NavLink href="#services">Services</NavLink>
-                  </NavItem>
-
-                  {/* <NavItem>
-                    <NavLink href="/components/">Portifilio</NavLink>
-                  </NavItem> */}
-                  <NavItem>
                     <NavLink href="#/contact">Contact</NavLink>
-                    {/* <Button
-                      className="btn-prim "
-                      color="default"
-                      href="/contact"
-                      // target="_blank"
-                    >
-                      <span className="nav-link-inner--text ml-1">
-                        Contact me
-                      </span>
-                    </Button> */}
                   </NavItem>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
