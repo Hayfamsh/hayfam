@@ -54,8 +54,8 @@ root.render(
   <HashRouter>
     <MainNavbar />
     <Routes>
-      <Route exact path="/" element={<Index />} />
-      <Route exact path="/contact" element={<Contact />} />
+      <Route path="/" element={<Index />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   </HashRouter>
 );

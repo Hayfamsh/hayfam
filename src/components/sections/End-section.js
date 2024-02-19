@@ -10,10 +10,16 @@ class End extends React.Component {
               <Row>
                 <Col lg="12" className="mr-r">
                   <div className="lead">
-                    <h3 className="sec-color">Do you have any question or collaboration?</h3>
+                    <h3 className="sec-color">
+                      Do you have any question or collaboration?
+                    </h3>
                   </div>
                   <p>
-                    Please Don't hesitate to <a href="/contact" className="color-none b-text ">contact me</a> to discuss.
+                    Please Don't hesitate to{" "}
+                    <a href="#/contact" className="color-none b-text ">
+                      contact me
+                    </a>{" "}
+                    to discuss.
                   </p>
                 </Col>
               </Row>

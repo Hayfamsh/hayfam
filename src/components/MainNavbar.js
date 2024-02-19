@@ -5,7 +5,6 @@ import Headroom from "headroom.js";
 
 // reactstrap components
 import {
-  Button,
   UncontrolledCollapse,
   Navbar,
   NavItem,
@@ -103,7 +102,7 @@ class MainNavbar extends Component {
                     <NavLink href="/components/">Portifilio</NavLink>
                   </NavItem> */}
                   <NavItem>
-                    <NavLink href="/contact">Contact</NavLink>
+                    <NavLink href="#/contact">Contact</NavLink>
                     {/* <Button
                       className="btn-prim "
                       color="default"

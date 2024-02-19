@@ -62,7 +62,7 @@ class MainHeader extends React.Component {
                     <Button
                       className="btn-prim btn-filled  mr-t"
                       color="default"
-                      href="/contact"
+                      href="#/contact"
                     >
                       <span className="nav-link-inner--text ml-1">
                         Contact me
