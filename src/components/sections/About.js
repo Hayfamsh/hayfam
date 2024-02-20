@@ -29,7 +29,7 @@ class About extends React.Component {
                     <div className=" pd-r">
                       <a
                         className="color-none"
-                        href="https://wwww.linkedin.com/in/hayfa-moh"
+                        href="https://www.linkedin.com/in/hayfa-moh"
                         target="_blank"
                         rel="noreferrer"
                       >

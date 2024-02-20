@@ -15,7 +15,6 @@ import {
 // nodejs library that concatenates classes
 import classnames from "classnames";
 
-import MainNavbar from "../components/MainNavbar";
 import Footer from "../components/Footer";
 
 import { db } from "../firebase";
@@ -92,7 +91,6 @@ const Contact = () => {
           title: "",
           message: "",
         });
-        // alert("Message has been sent!");
         //Show alert and hide it after 5 sec
         setSubmitTag(true);
         setTimeout(() => {
@@ -102,7 +100,6 @@ const Contact = () => {
         alert(e.message);
       }
     } else {
-      // alert("Please, be sure all fields are valid before you submit!!");
       //Show alert and hide it after 5 sec
       setWarning(true);
       setTimeout(() => {
@@ -113,8 +110,6 @@ const Contact = () => {
 
   return (
     <>
-      {/* <MainNavbar /> */}
-
       <main>
         {/* ########  Header ######## */}
         <div className="position-relative">
@@ -267,7 +262,7 @@ const Contact = () => {
                           <div className=" pd-r">
                             <a
                               className="color-none"
-                              href="https://wwww.linkedin.com/in/hayfa-moh"
+                              href="https://www.linkedin.com/in/hayfa-moh"
                               target="_blank"
                               rel="noreferrer"
                             >

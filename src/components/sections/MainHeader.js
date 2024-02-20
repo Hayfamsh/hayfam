@@ -3,48 +3,12 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 
-//local componetnt
-
 class MainHeader extends React.Component {
   render() {
     return (
       <>
         <div className="position-relative">
           <section className="section section-main section-shaped shadow">
-            {/* <Container className=" align-items-center py-lg  ">
-              <Row className="">
-                <Col
-                  lg={{ span: 6, order: 1 }}
-                  xs={{ span: 12, order: 2 }}
-                  sm={{ span: 4, order: 2 }}
-                  className="blue"
-                >
-                  <div className="text-left-lg">
-                    <h3 className="lead ">
-                      Hello, I am Hayfa<br></br>.. Meet your dreams
-                    </h3>
-
-                    <p className=" sub-text mr-t">
-                      I am Web developer and UI/UX designer, I work to make your
-                      dreams come true, from designing to digital products..
-                    </p>
-                  </div>
-                </Col>
-                <Col
-                  className=" green"
-                  lg={{ span: 6, order: 2 }}
-                  xs={{ span: 12, order: 1 }}
-                  sm={{ span: 8, order: 1 }}
-                >
-                  <img
-                    alt="..."
-                    className="header-img  "
-                    src={require("../../assets/img/desktop_img.jpg")}
-                  />
-                </Col>
-              </Row>
-            </Container> */}
-
             {/* ***** New container ******** */}
             <Container className=" align-items-center py-lg  ">
               <Row>
