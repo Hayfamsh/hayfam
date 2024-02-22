@@ -17,8 +17,9 @@ class MainHeader extends React.Component {
                     <h3 className="lead ">Hello, I am Hayfa</h3>
 
                     <p className=" sub-text mr-t">
-                      I am Web developer and UI/UX designer, I work to make your
-                      dreams come true, from designing to digital products.
+                      I am a web developer and UI/UX designer. <br />I provide
+                      services that help to make your dreams come true, from
+                      designing to digital products.
                     </p>
                     <p className=" sub-text ">
                       Let's cut the distance and make your dreams real.
