@@ -27,7 +27,8 @@ class Services extends React.Component {
                           </div>
                           <h6 className="sec-color">Web Design</h6>
                           <p>
-                            Design user interface, and make it easy to figure.
+                            Design the user interface that reflect your
+                            requirements.
                           </p>
                         </CardBody>
                       </Card>
