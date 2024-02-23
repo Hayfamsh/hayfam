@@ -15,7 +15,7 @@ class End extends React.Component {
                     </h3>
                   </div>
                   <p>
-                    Please Don't hesitate to{" "}
+                    Please don't hesitate to{" "}
                     <a href="#/contact" className="color-none b-text ">
                       contact me
                     </a>{" "}

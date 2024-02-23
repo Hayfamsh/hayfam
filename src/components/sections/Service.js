@@ -60,7 +60,7 @@ class Services extends React.Component {
                             />
                           </div>
                           <h6 className="sec-color">Graphic Design</h6>
-                          <p>Design what you dream.</p>
+                          <p>Design whatever you need.</p>
                         </CardBody>
                       </Card>
                     </Col>

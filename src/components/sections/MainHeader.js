@@ -22,7 +22,7 @@ class MainHeader extends React.Component {
                       designing to digital products.
                     </p>
                     <p className=" sub-text ">
-                      Let's cut the distance and make your dreams real.
+                      Let's cut the distance and make your dreams a reality.
                     </p>
                     <Button
                       className="btn-prim btn-filled  mr-t"
